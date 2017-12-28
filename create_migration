@@ -1,0 +1,1 @@
+'migration', 'CREATE TABLE `migration` (\n  `tbl_name` varchar(255) NOT NULL,\n  `frgn_keys_json` text NOT NULL,\n  `dependency_yn` int(1) NOT NULL,\n  `copied_yn` int(1) NOT NULL,\n  `error_yn` int(1) NOT NULL,\n  `tbl_id` int(1) NOT NULL AUTO_INCREMENT,\n  UNIQUE KEY `tbl_id` (`tbl_id`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1'
